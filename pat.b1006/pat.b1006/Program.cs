@@ -8,7 +8,7 @@ namespace PAT.b1006
     /// by xy
     /// at warabi
     /// </summary>
-    class _1006
+    class Program
     {
         static void Main(string[] args)
         {
