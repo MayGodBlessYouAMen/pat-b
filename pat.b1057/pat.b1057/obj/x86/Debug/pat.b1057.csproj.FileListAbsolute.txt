@@ -1,0 +1,4 @@
+E:\WorkSpace\GitHub\pat-b\pat.b1057\pat.b1057\bin\Debug\pat.b1057.exe
+E:\WorkSpace\GitHub\pat-b\pat.b1057\pat.b1057\bin\Debug\pat.b1057.pdb
+E:\WorkSpace\GitHub\pat-b\pat.b1057\pat.b1057\obj\x86\Debug\pat.b1057.exe
+E:\WorkSpace\GitHub\pat-b\pat.b1057\pat.b1057\obj\x86\Debug\pat.b1057.pdb
