@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{70782F35-2DB7-45A3-A8E6-80B9D0B89FDF}</ProjectGuid>
+    <ProjectGuid>{F5353CF2-419D-498F-8E20-73A95A0103C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>pat.b1010</RootNamespace>
