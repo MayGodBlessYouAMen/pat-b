@@ -1,0 +1,6 @@
+最近发现一个巨烦人的问题，项目里明明已经通过gitignore忽略了.suo文件，但是每次git pull的时候总是还得到.suo文件冲突的提示，也就是说gitignore里忽略suo文件的规则无效，导致了每个提交都会把.suo文件包含进去。项目里的gitignore文件是从GitHub官方的gitignore库拿过来的，理论上应该经过无数人检验了。
+
+上SO一搜，http://stackoverflow.com/questions/11628418/git-cant-ignore-suo-file，原因立现。原来这个.suo文件是在.gitignore之前被提交进服务器的，.gitignore对已经存在服务器里的文件是不起作用的。按照回答里投票最高的答案做了一下，问题解决
+
+git rm --cached project1.v12.suo
+git commit -m "Delete suo file from repository"
