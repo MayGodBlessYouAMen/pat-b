@@ -2,4 +2,4 @@
 
 https://www.patest.cn/contests/pat-b-practise
 
-VS2010 C#
+by VS2010 C#
