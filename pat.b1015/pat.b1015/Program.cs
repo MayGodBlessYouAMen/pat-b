@@ -122,7 +122,7 @@ namespace pat.b1015
                 });
                 */
 
-                //lambda表达式的写法。与delegate相同。-->lambda稍微快一点点，多通过了三个测试点
+                //lambda表达式的写法。与delegate相同。-->lambda稍微快一点点，多通过了1个测试点
                 list.Sort((x, y) =>
                 {
                     if (x.DC != y.DC)
