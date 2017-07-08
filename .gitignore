@@ -1,0 +1,3 @@
+#过滤文件夹bin,obj
+bin/
+obj/
