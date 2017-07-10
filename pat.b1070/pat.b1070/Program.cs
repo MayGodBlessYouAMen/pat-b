@@ -30,6 +30,39 @@ namespace pat.b1070
              */
             #endregion
 
+            int n = int.Parse(Console.ReadLine());
+            string[] strArray = Console.ReadLine().Split(' ');
+            //转为int数组
+            int[] intArray = new int[strArray.Length];
+            for (int i = 0; i < intArray.Length; i++)
+            {
+                intArray[i] = int.Parse(strArray[i]);
+            }
+            //排序
+            Array.Sort(intArray);
+            //计算
+            //因为向下取整。所以计算中的小数位其实可以忽略，故直接用int计算
+            int s = F(intArray.Length, intArray);
+
+            Console.WriteLine(s);
+        }
+
+        /// <summary>
+        /// 递归
+        /// </summary>
+        /// <param name="i">i的范围为1~intArray.Length</param>
+        /// <param name="intArray"></param>
+        /// <returns></returns>
+        private static int F(int i, int[] intArray)
+        {
+            if (i == 1)
+            {
+                return intArray[i - 1];
+            }
+            else
+            {
+                return (F(i - 1, intArray) + intArray[i - 1]) / 2;
+            }
         }
 
     }
