@@ -1,5 +1,5 @@
 # pat-b PAT (Basic Level) Practise （中文）
 
-https://www.patest.cn/contests/pat-b-practise
+https://www.patest.cn/practice 乙级
 
-by VS2010 C#
+VS2010 C#
